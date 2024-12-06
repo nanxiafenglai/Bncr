@@ -1,0 +1,27 @@
+{
+  "annotation0": "该文件由系统自动生成.",
+  "annotation1": "当config.json中pluginsPublishingMode===\"git\"时且有public插件时生成",
+  "annotation2": "该文件用于插件市场索引,当更新插件至git时,请将该文件同步更新至git",
+  "glvtj1nFHEJqT8Zna/fiTjHlt9U=": {
+    "type": "github",
+    "name": "替换origin",
+    "author": "Aming",
+    "team": "Bncr团队",
+    "version": "1.0.1",
+    "description": "2.x升级到3.x后所用，用于替换Adapter plugins下所有文件的origin为team",
+    "classification": [
+      "官方命令"
+    ],
+    "filename": "替换origin.ts",
+    "fileDir": "/plugins/官方插件/替换origin.ts",
+    "systemVersionRange": "",
+    "isAdapter": false,
+    "isCron": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "isMod": false,
+    "isService": false,
+    "id": "glvtj1nFHEJqT8Zna/fiTjHlt9U=",
+    "isChatPlugin": true
+  }
+}
