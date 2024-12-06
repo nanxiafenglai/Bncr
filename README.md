@@ -1,6 +1,6 @@
 # 说明
 Bncr打赏插件  
-1、仅适配对接gewechat
+1、仅适配对接gewechat  
 2、其它说明懒得写，看插件吧  
 3、有异常请联系Bncr社区群[TG频道](https://t.me/BncrJS)  
 
