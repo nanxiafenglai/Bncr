@@ -2,7 +2,7 @@
  * @author Dsmggm
  * @name Dsmggm_赞赏
  * @team Dsmggm
- * @version 1.0.2
+ * @version 1.0.3
  * @description 请求赞赏，返回赞赏
  * @rule ^(赞赏)$
  * @rule ^(赞赏码)$
@@ -92,7 +92,7 @@ async function check_money(s) {
     // 判断2分钟内的订单
     // 如果没有打赏记录
     if (recentKeys.length === 0) {
-      logMessage.log('INFO', `${s.getUserId}没有查询到赞赏记录`);
+      logMessage('INFO', `${s.getUserId}没有查询到赞赏记录`);
       s.reply('没有查询到赞赏记录');
 
     // 如果有一个打赏记录
