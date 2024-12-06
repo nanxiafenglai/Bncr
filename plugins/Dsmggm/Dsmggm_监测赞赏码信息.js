@@ -2,7 +2,7 @@
  * @author Dsmggm
  * @name Dsmggm_监测赞赏码信息
  * @team Dsmggm
- * @version 1.0.3
+ * @version 1.0.4
  * @description 监控赞赏码的插件，需要安装xml2js模块，需要登录微信才可使用，测试仅支持gewechat，借鉴于南下风来，感谢南下风来
  * @rule https:\/\/[A-Za-z0-9\-\._~:\/\?#\[\]@!$&'\*\+,%;\=]*
  * @parallel true 

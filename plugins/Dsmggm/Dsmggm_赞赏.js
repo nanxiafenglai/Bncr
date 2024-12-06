@@ -2,7 +2,7 @@
  * @author Dsmggm
  * @name Dsmggm_赞赏
  * @team Dsmggm
- * @version 1.0.1
+ * @version 1.0.2
  * @description 请求赞赏，返回赞赏
  * @rule ^(赞赏)$
  * @rule ^(赞赏码)$
