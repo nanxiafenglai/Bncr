@@ -1,7 +1,7 @@
 /**
  * @author Dsmggm
  * @name Dsmggm_赞赏
- * @team svjdck
+ * @team Dsmggm
  * @version 1.0.0
  * @description 请求赞赏，返回赞赏
  * @rule ^(赞赏)$
