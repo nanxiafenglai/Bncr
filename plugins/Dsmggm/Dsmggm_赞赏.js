@@ -64,7 +64,7 @@ const jsonSchema = BncrCreateSchema.object({
     switch: BncrCreateSchema.object({
       enable: BncrCreateSchema.boolean().setTitle('插件开关').setDescription(`设置为关则插件不启用`).setDefault(false),
       image:BncrCreateSchema.string().setTitle('打赏二维码图片URL：').setDescription(`返回给用户的打赏码，需要与机器人bot同一微信(目前只支持gwwechat)`).setDefault('http://无界IP:9090/public/zsm.jpg')
-  }).setTitle().setDefault({}),
+  }).setTitle('设置').setDefault({}),
 
     // 说明
     describe: BncrCreateSchema.object({}).setTitle('说明').setDescription(describe_text).setDefault({})
