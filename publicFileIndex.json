@@ -1,6 +1,6 @@
 {
   "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
-  "igZmFM7X1i/As2PdHCZCA9qjDDc=": {
+  "pcGFiAqf6uLSQbYb7d8V/Nn2jyg=": {
     "type": "github",
     "name": "Dsmggm_监测赞赏码信息",
     "author": "Dsmggm",
@@ -11,7 +11,7 @@
       "工具"
     ],
     "filename": "Dsmggm_监测赞赏码信息.js",
-    "fileDir": "/plugins/xxx/Dsmggm_监测赞赏码信息.js",
+    "fileDir": "/plugins/Dsmggm/Dsmggm_监测赞赏码信息.js",
     "systemVersionRange": "",
     "isCron": false,
     "isAdapter": false,
@@ -19,10 +19,10 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": false,
-    "id": "igZmFM7X1i/As2PdHCZCA9qjDDc=",
+    "id": "pcGFiAqf6uLSQbYb7d8V/Nn2jyg=",
     "isChatPlugin": true
   },
-  "a3v39e4gZSUmZSuWlaeZ6hIEw14=": {
+  "4A/zSYTH8s4oljVqVsIsdRpCOHI=": {
     "type": "github",
     "name": "Dsmggm_赞赏",
     "author": "Dsmggm",
@@ -33,7 +33,7 @@
       "工具"
     ],
     "filename": "Dsmggm_赞赏.js",
-    "fileDir": "/plugins/xxx/Dsmggm_赞赏.js",
+    "fileDir": "/plugins/Dsmggm/Dsmggm_赞赏.js",
     "systemVersionRange": "",
     "isCron": false,
     "isAdapter": false,
@@ -41,7 +41,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": false,
-    "id": "a3v39e4gZSUmZSuWlaeZ6hIEw14=",
+    "id": "4A/zSYTH8s4oljVqVsIsdRpCOHI=",
     "isChatPlugin": true
   }
 }
