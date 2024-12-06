@@ -2,7 +2,7 @@
  * @author Dsmggm
  * @name Dsmggm_赞赏
  * @team Dsmggm
- * @version 1.0.0
+ * @version 1.0.1
  * @description 请求赞赏，返回赞赏
  * @rule ^(赞赏)$
  * @rule ^(赞赏码)$
@@ -113,19 +113,15 @@ async function check_money(s) {
     
     // 如果有多个打赏记录
     } else {
-      console.log('多个');
       // s.reply('查询到多个赞赏记录')
       let names = ''
       let index = 1;
       for (const key of recentKeys) {
         const only = await userdb.get(key); 
-        console.log(typeof only); // 输出获取的结果
-        console.log(only.赞赏人); // 输出获取的结果
         // 添加到 names 字符串，格式为 "编号: 赞赏人\n"
         names += `${index}. ${only.赞赏人}\n`; // 使用换行符分隔
         index++; // 增加编号
       }
-      console.log(names);
       s.reply('当前收到多笔赞赏，请确认对应打赏序号：\n' + names)
 
       // 用户回复对应赞赏记录
@@ -232,6 +228,5 @@ module.exports = async (s) => {
       
 
     // 检查是否已经付款
-    console.log('来了老弟');
     await check_money(s);
 };
