@@ -9,7 +9,7 @@
  * @rule ^(查询key)$
  * @admin false
  * @public false
- * @priority 99999999
+ * @priority 999999999
  * @disable false
  * @classification ["工具"]
 */

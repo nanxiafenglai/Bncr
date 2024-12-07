@@ -9,7 +9,7 @@
  * @rule ^(打款)$
  * @admin false
  * @public true
- * @priority 999999
+ * @priority 9999999
  * // 是否服务模块，true不会作为插件加载，会在系统启动时执行该插件内容，感谢原作者：Dsmggm
  * @service false
  * @classification ["工具"]
